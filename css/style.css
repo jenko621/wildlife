@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-wrapper {
+    width: 1600px;
+    background-image: url(../image/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 1440px;
+    padding: 0px 40px 0px 200px;
+}
+
+.header-container {
+    display: flex;
+    height: 13%;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    width: 14%;
+    padding-top: 12px;
+}
+
+.logo-container h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 86%;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav-list li a {
+    display: flex;
+    color: #F7F7F7;
+    ;
+    text-decoration: none;
+}
+
+.nav-list li button {
+    width: 120px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 23px;
+}
+
+.nav-list li button:hover {
+    background-color: #CE6627;
+}
+
+.nav-item-one {
+    position: relative;
+    right: 186px;
+    font-size: 23px;
+    border: transparent;
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item-two {
+    position: relative;
+    right: 122px;
+    font-size: 23px;
+    border: transparent;
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item-three {
+    position: relative;
+    right: 60px;
+    bottom: 3px;
+    border: transparent;
+    margin-top: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item-four {
+    position: relative;
+    left: 2px;
+    border: 2px solid #CC6226;
+    padding-top: 5px;
+    padding-left: 22px;
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description-container {
+    display: flex;
+    height: 87%;
+    flex-direction: column;
+    margin-top: 113px;
+}
+
+.description-container h2 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #CD6326;
+    line-height: 72px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.description-container p {
+    width: 24%;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: #F7F7F7;
+}
+
+.donate-container {
+    background-color: #CD6326;
+    text-align: center;
+    color: #F7F7F7;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 49px;
+    width: 160px;
+    height: 60px;
+}
+
+.donate-container:hover {
+    background-color: #E69029;
+    border: none;
+}
+
+.articles-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #CCCCCC;
+    align-items: center;
+    width: 100%;
+}
+
+.latest-article-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest-article-wrapper h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 112px;
+    margin-bottom: 20px;
+}
+
+.latest-article-wrapper h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 120px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-photo {
+    display: flex;
+}
+
+.inscription-block {
+    display: flex;
+}
+
+.list-photo img {
+    display: flex;
+}
+
+.arrow-left {
+    position: relative;
+    right: 120px;
+}
+
+.deer {
+    position: relative;
+    right: 60px;
+}
+
+.bird {
+    position: relative;
+    left: 60px;
+}
+
+.arrow-right {
+    position: relative;
+    left: 120px;
+}
+
+.inscription-deer {
+    position: relative;
+    bottom: 113px;
+    left: 95px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+.inscription-squirrel {
+    position: relative;
+    bottom: 113px;
+    left: 207px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+.inscription-bird {
+    position: relative;
+    bottom: 113px;
+    left: 357px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+.inscription-naturalist_investigation {
+    position: relative;
+    bottom: 67px;
+    right: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.inscription-kamikaze_squirrels {
+    position: relative;
+    bottom: 67px;
+    left: 92px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.inscription-birds_fight_club {
+    position: relative;
+    bottom: 67px;
+    left: 275px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.inscription-block {
+    margin-bottom: 204px;
+}
+
+.input-box {
+    margin-bottom: 215px;
+}
+
+.input-box h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+textarea {
+    background-color: #CCCCCC;
+    position: relative;
+    left: 2px;
+    height: 62px;
+    width: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+    padding-top: 18px;
+    padding-left: 14px;
+}
+
+.send-button {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 27px;
+    background-color: #CD6326;
+    border: 1px solid #CD6326;
+    color: #F7F7F7;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    right: 2px;
+    bottom: 24px;
+    width: 121px;
+    height: 62px;
+}
+
+.send-button:hover {
+    background-color: #E39128;
+    border: none;
+}
+
+.send-button:active {
+    background-color: #8F5613;
+    border: none;
+}
+
+.footer-page_wrapper {
+    display: flex;
+    width: 100%;
+    background-image: url(../image/background-footer.jpg);
+    background: cover;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 360px;
+}
+
+.footer-logo_wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 193px;
+}
+
+.footer-logo_wrapper p {
+    position: relative;
+    left: 15px;
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-stretch: extra-condensed;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.footer-article_list {
+    display: flex;
+}
+
+.article_list-wrapper {
+    display: flex;
+}
+
+.article_list-wrapper li {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+.block-articles { 
+    position: relative;
+    right: 19px;
+}
+
+.block-about_us {
+    position: relative;
+    left: 69px;
+}
+
+.block-learn_more {
+    position: relative;
+    left: 158px;
+}
+
+.container-social_address {
+    display: flex;
+}
+
+.list-social_icons {
+    display: flex;
+    list-style: none;
+}
+
+.logo-facebook {
+    position: relative;
+    top: 2px;
+    left: 112px;
+}
+
+.logo-instagram {
+    position: relative;
+    top: 2px;
+    left: 139px;
+}
+
+.logo-parag {
+    position: relative;
+    top: 2px;
+    left: 165px;
+
+}
+
+.logo-telegram {
+    position: relative;
+    top: 2px;
+    left: 192px;
+}
